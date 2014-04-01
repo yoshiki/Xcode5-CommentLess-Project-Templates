@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ancestors</key>
+	<array>
+		<string>jp.clouder.ios.objectiveCApplication</string>
+		<string>jp.clouder.ios.iPhoneBase</string>
+		<string>jp.clouder.ios.prefixable</string>
+	</array>
+	<key>Components</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>jp.clouder.ios.cocoaTouchApplicationUnitTestBundle</string>
+			<key>Name</key>
+			<string>___PACKAGENAME___Tests</string>
+		</dict>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>___PACKAGENAME___-Info.plist:iPhone</key>
+		<string>&lt;key&gt;CFBundleDisplayName&lt;/key&gt;
+&lt;string&gt;${PRODUCT_NAME}&lt;/string&gt;
+&lt;key&gt;CFBundleVersion&lt;/key&gt;
+&lt;string&gt;1.0&lt;/string&gt;
+&lt;key&gt;CFBundleShortVersionString&lt;/key&gt;
+&lt;string&gt;1.0&lt;/string&gt;
+&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
+&lt;true/&gt;
+&lt;key&gt;UIRequiredDeviceCapabilities&lt;/key&gt;
+&lt;array&gt;
+	&lt;string&gt;armv7&lt;/string&gt;
+&lt;/array&gt;</string>
+		<key>___PACKAGENAME___-Info.plist:statusBarTintForNavBar</key>
+		<string>&lt;key&gt;UIStatusBarTintParameters&lt;/key&gt;
+&lt;dict&gt;
+    &lt;key&gt;UINavigationBar&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;Style&lt;/key&gt;
+        &lt;string&gt;UIBarStyleDefault&lt;/string&gt;
+        &lt;key&gt;Translucent&lt;/key&gt;
+        &lt;false/&gt;
+    &lt;/dict&gt;
+&lt;/dict&gt;
+</string>
+		<key>___PACKAGENAME___-Prefix.pch:Availability:iPhoneAvailability:*</key>
+		<string>#import &lt;Availability.h&gt;
+
+#ifndef __IPHONE____*____0
+#warning "This project uses features only available in iOS SDK ___*___.0 and later."
+#endif
+</string>
+		<key>___PACKAGENAME___.entitlements</key>
+		<dict>
+			<key>Beginning</key>
+			<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;dict&gt;
+            </string>
+			<key>End</key>
+			<string>&lt;/dict&gt;
+&lt;/plist&gt;
+            </string>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>___PACKAGENAME___.entitlements:dataProtectionClass</key>
+		<string>&lt;key&gt;DataProtectionClass&lt;/key&gt;
+&lt;string&gt;NSFileProtectionComplete&lt;/string&gt;
+        </string>
+		<key>___VARIABLE_classPrefix:identifier___AppDelegate.h:ivars</key>
+		<dict>
+			<key>Beginning</key>
+			<string>@interface ___VARIABLE_classPrefix:identifier___AppDelegate : UIResponder &lt;UIApplicationDelegate&gt;
+</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>___VARIABLE_classPrefix:identifier___AppDelegate.h:methods:window</key>
+		<string>@property (strong, nonatomic) UIWindow *window;
+</string>
+		<key>___VARIABLE_classPrefix:identifier___AppDelegate.m</key>
+		<dict>
+			<key>End</key>
+			<string>@end</string>
+		</dict>
+		<key>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationDidBecomeActive</key>
+		<dict>
+			<key>Beginning</key>
+			<string>- (void)applicationDidBecomeActive:(UIApplication *)application
+{</string>
+			<key>End</key>
+			<string>}
+</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationDidEnterBackground</key>
+		<dict>
+			<key>Beginning</key>
+			<string>- (void)applicationDidEnterBackground:(UIApplication *)application
+{</string>
+			<key>End</key>
+			<string>}
+</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationLifecycle</key>
+		<string>- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application
+{
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application
+{
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application
+{
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+}
+</string>
+		<key>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationWillEnterForeground</key>
+		<dict>
+			<key>Beginning</key>
+			<string>- (void)applicationWillEnterForeground:(UIApplication *)application
+{</string>
+			<key>End</key>
+			<string>}
+</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationWillResignActive</key>
+		<dict>
+			<key>Beginning</key>
+			<string>- (void)applicationWillResignActive:(UIApplication *)application
+{</string>
+			<key>End</key>
+			<string>}
+</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationWillTerminate</key>
+		<dict>
+			<key>Beginning</key>
+			<string>- (void)applicationWillTerminate:(UIApplication *)application
+{</string>
+			<key>End</key>
+			<string>}
+</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>___VARIABLE_classPrefix:identifier___AppDelegate.m:implementation</key>
+		<string>@implementation ___VARIABLE_classPrefix:identifier___AppDelegate
+</string>
+		<key>main.m:main</key>
+		<dict>
+			<key>Beginning</key>
+			<string>int main(int argc, char * argv[])
+{</string>
+			<key>End</key>
+			<string>}</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>main.m:main:UIApplicationMain</key>
+		<string>@autoreleasepool {
+    return UIApplicationMain(argc, argv, nil, NSStringFromClass([___VARIABLE_classPrefix:identifier___AppDelegate class]));
+}
+</string>
+	</dict>
+	<key>Identifier</key>
+	<string>jp.clouder.ios.cocoaTouchApplication</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Nodes</key>
+	<array>
+		<string>main.m:import:___VARIABLE_classPrefix:identifier___AppDelegate.h</string>
+		<string>main.m:main:UIApplicationMain</string>
+		<string>___PACKAGENAME___-Info.plist:iPhone</string>
+		<string>___PACKAGENAME___-Info.plist:NSMainNibFile</string>
+		<string>___PACKAGENAME___-Prefix.pch:objC:importFoundation</string>
+		<string>___PACKAGENAME___-Prefix.pch:Availability:iPhoneAvailability</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.h:comments</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.h:import:importCocoa</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.h:class</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.h:ivars</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.h:methods:window</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:comments</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:import:___VARIABLE_classPrefix:identifier___AppDelegate.h</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:implementation:dealloc:_window</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationdidFinishLaunchingWithOptions:setup</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationWillResignActive:comments</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationDidEnterBackground:comments</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationWillEnterForeground:comments</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationDidBecomeActive:comments</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationWillTerminate:comments</string>
+		<string>Images.xcassets</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<string>Universal</string>
+			<key>Description</key>
+			<string>Which device family to create a project for</string>
+			<key>Identifier</key>
+			<string>universalDeviceFamily</string>
+			<key>Name</key>
+			<string>Devices</string>
+			<key>SortOrder</key>
+			<integer>1</integer>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Units</key>
+			<dict>
+				<key>Universal</key>
+				<dict>
+					<key>Definitions</key>
+					<dict>
+						<key>Images.xcassets</key>
+						<dict>
+							<key>Path</key>
+							<string>Images-Universal.xcassets</string>
+							<key>SortOrder</key>
+							<integer>100</integer>
+						</dict>
+					</dict>
+					<key>Nodes</key>
+					<array>
+						<string>___PACKAGENAME___-Info.plist:UISupportedInterfaceOrientations~iPhone</string>
+						<string>___PACKAGENAME___-Info.plist:UISupportedInterfaceOrientations~iPad</string>
+					</array>
+					<key>Project</key>
+					<dict>
+						<key>SharedSettings</key>
+						<dict>
+							<key>TARGETED_DEVICE_FAMILY</key>
+							<string>1,2</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>iPad</key>
+				<dict>
+					<key>Definitions</key>
+					<dict>
+						<key>Images.xcassets</key>
+						<dict>
+							<key>Path</key>
+							<string>Images-iPad.xcassets</string>
+							<key>SortOrder</key>
+							<integer>100</integer>
+						</dict>
+					</dict>
+					<key>Nodes</key>
+					<array>
+						<string>___PACKAGENAME___-Info.plist:UISupportedInterfaceOrientations~iPad</string>
+					</array>
+					<key>Project</key>
+					<dict>
+						<key>SharedSettings</key>
+						<dict>
+							<key>TARGETED_DEVICE_FAMILY</key>
+							<string>2</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>Definitions</key>
+					<dict>
+						<key>Images.xcassets</key>
+						<dict>
+							<key>Path</key>
+							<string>Images-iPhone.xcassets</string>
+							<key>SortOrder</key>
+							<integer>100</integer>
+						</dict>
+					</dict>
+					<key>Nodes</key>
+					<array>
+						<string>___PACKAGENAME___-Info.plist:UISupportedInterfaceOrientations~iPhone</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>Project</key>
+	<dict>
+		<key>SharedSettings</key>
+		<dict>
+			<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+			<string>iPhone Developer</string>
+		</dict>
+	</dict>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>Frameworks</key>
+			<array>
+				<string>Foundation</string>
+				<string>CoreGraphics</string>
+				<string>UIKit</string>
+			</array>
+			<key>SharedSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
